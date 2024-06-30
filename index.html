@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head {
+            text-align: center;
+            color: burlywood;
+            font-weight: 400;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+        }
+
+        span {
+            font-weight: 500;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        input {
+            outline: none;
+            border: none;
+            border-bottom: 1px ridge black !important;
+            padding: 5px 10px;
+            font-size: 20px;
+            font-weight: 700;
+            color: rgb(194, 55, 55);
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        div{
+            margin-top: 10px;
+            div{
+                margin-bottom: 10px;
+            }
+        }}
+        
+    </style>
+</head>
+
+<body>
+
+    <h1 class="head">Check Your konwledge Of Articles <br>Fill Up The Blanks With (a, an and the)</h1>
+
+    <div class="container">
+        <div>
+            <div>
+                <span>1.Dog is</span>
+                <input type="text" id="line1" maxlength="4">
+                <span id="1">faithful animal.</span >
+            </div>
+                
+            <div>
+                <span>2.Let's go to</span>
+                <input type="text" id="line2" maxlength="4">
+                <span id="2">beach.</span>
+            </div>
+            <div>
+                <span>3.He is moviing to</span>
+                <input type="text" id="line3" maxlength="4">
+                <span id="3">USA.</span>
+            </div>
+            <div>
+                <span>4.We need</span>
+                <input type="text" id="line4" maxlength="4">
+                <span id="4">egg for this recipe.</span>
+            </div>
+            <div>
+                <span>5.He is</span>
+                <input type="text" id="line5" maxlength="4">
+                <span id="5">honest man.</span>
+            </div>
+            <div>
+                <span>6.We have </span>
+                <input type="text" id="line6" maxlength="4">
+                <span id="6">colour television.</span>
+            </div>
+            <div>
+                <span>7.Someone please call</span>
+                <input type="text" id="line7" maxlength="4">
+                <span id="7">police.</span>
+            </div>
+            <div>
+                <span>8.He is</span>
+                <input type="text" id="line8" maxlength="4">
+                <span id="8">European.</span>
+            </div>
+        </div>
+    </div>
+
+    <button style="margin: auto;display: block;margin-top: 60px; padding: 8px 16px;color: #1f1616; font-weight: 600;font-size: 15px; background-color: rgb(231, 231, 35); border: none;
+    border-radius: 15px;" onclick="submit()">Submit Test</button>
+<button style="margin: auto;display: block;margin-top: 20px;  padding: 8px 16px;color: #1f1616; font-weight: 600;font-size: 15px; background-color: rgb(231, 231, 35); border: none;
+border-radius: 15px;" onclick="Refresh()">Refresh</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
